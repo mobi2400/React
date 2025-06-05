@@ -1,7 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-ReactDOM.render(<h1>Hello World!</h1>, document.getElementById("root"));
+const styles ={
+    color : "red",
+    fontSize : "200px",
+    border : "10px solid black"
+}
+ReactDOM.render(<h1 style={styles}>Hello World!</h1>, 
+    document.getElementById("root"));
 
 // If you're running this locally in VS Code use the commands:
 // npm install
