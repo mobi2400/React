@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import PI,{doublePi,triplePi} from "./math.js"
 
 ReactDOM.render(
   <ul>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
+    <li>{PI}</li>
+    <li>{doublePi()}</li>
+    <li>{triplePi()}</li>
   </ul>,
   document.getElementById("root")
 );
