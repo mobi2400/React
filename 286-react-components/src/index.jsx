@@ -1,9 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// function name shiuld start with capital letter
+
+function Heading(){
+  return <h1> My Favourite food</h1>
+}
 ReactDOM.render(
   <div>
-    <h1>My Favourite Foods</h1>
+   <Heading/> // same as <Heading></Heading>
     <ul>
       <li>Bacon</li>
       <li>Jamon</li>
