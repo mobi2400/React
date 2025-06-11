@@ -21,3 +21,12 @@
 // //FindIndex-- return the index of the given num in the array
 // const FindIndexNum = numbers.FindIndexNum((num)=>{return num >10})
 
+
+
+import emojipedia from "./emojipedia";
+
+const emojiMeaning=emojipedia.map((emoji)=>{
+    return emoji.meaning.substring(0,100)
+})
+
+console.log(emojiMeaning)
