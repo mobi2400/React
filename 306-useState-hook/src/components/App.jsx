@@ -9,6 +9,7 @@ function increease(){
     return  <div className="container">
       <h1>{count}</h1>
       <button onClick={()=>{ statecount(count+1)}}>+</button>
+      <button onClick={()=>{ statecount(count-1)}}>-</button>
     </div>  
 
 }
