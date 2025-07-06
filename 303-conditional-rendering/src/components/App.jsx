@@ -5,7 +5,7 @@ var isloggedIn=false;
 function App() {
   return (
     <div className="container">
-    {isloggedIn ? <h1>Hello</h1> : <LoginForm/>}  
+    {isloggedIn ? <h1>Hello</h1> : <LoginForm/>}    
     </div>
   );
 }
